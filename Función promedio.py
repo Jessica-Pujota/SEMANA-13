@@ -73,3 +73,6 @@ datos_temperaturas = {
 # Llamar a la función con los datos
 calcular_promedio_temperaturas(datos_temperaturas)
 
+
+
+
