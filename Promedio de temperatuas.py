@@ -69,6 +69,6 @@ datos_temperaturas = {
          {"day": "Domingo", "temp": 39}]
     ]
 }
-
 # Llamar a la función con los datos
 calcular_promedio_temperaturas(datos_temperaturas)
+
