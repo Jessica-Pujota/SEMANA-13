@@ -1,12 +1,6 @@
 def calcular_promedio_temperaturas(datos_ciudades: dict) -> None:
     """
-    Calcula y muestra el promedio de temperaturas de varias ciudades a lo largo de 4 semanas.
-
-    Args:
-        datos_ciudades (dict): Un diccionario que contiene listas de datos de temperaturas.
-                               Las claves son los nombres de las ciudades y los valores son
-                               listas de temperaturas diarias en grados Fahrenheit (°F).
-    """
+    Calcula y muestra el promedio de temperaturas de varias ciudades a lo largo de 4 semanas"""
 
     for ciudad, semanas_de_datos in datos_ciudades.items():
         print(f"Calculando promedio para: {ciudad}")
@@ -28,9 +22,6 @@ def calcular_promedio_temperaturas(datos_ciudades: dict) -> None:
             promedio_celsius = (promedio_fahrenheit - 32) * 5 / 9
 
             print(f"Temperatura promedio en {ciudad} durante las 4 semanas: {promedio_celsius:.2f}°C")
-            print("-" * 50)
-        else:
-            print(f"No hay datos de temperatura válidos para {ciudad}.")
             print("-" * 50)
 
 # Datos de temperaturas de las ciudades proporcionados
@@ -81,3 +72,4 @@ datos_temperaturas = {
 
 # Llamar a la función con los datos
 calcular_promedio_temperaturas(datos_temperaturas)
+
