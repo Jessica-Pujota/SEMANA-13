@@ -33,7 +33,7 @@ def calcular_promedio_temperaturas(datos_ciudades: dict) -> None:
             print(f"No hay datos de temperatura válidos para {ciudad}.")
             print("-" * 50)
 
-# Datos de temperaturas de las ciudades proporcionados en el prompt
+# Datos de temperaturas de las ciudades proporcionados
 datos_temperaturas = {
     "Tabacundo": [
         [{"day": "Lunes", "temp": 50}, {"day": "Martes", "temp": 48}, {"day": "Miércoles", "temp": 45},
